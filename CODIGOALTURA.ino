@@ -12,7 +12,6 @@ float altura = 200;
 float df;
 LiquidCrystal_I2C lcd(0x27,16,2);
 int pulsaciones = 0;
-bool firstPress = true;
 int totaldistancia=0;
 
 void setup(){
